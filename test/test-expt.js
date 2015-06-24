@@ -5,25 +5,20 @@ var assert = require('yeoman-generator').assert;
 var helpers = require('yeoman-generator').test;
 var os = require('os');
 
-describe('abo:app', function () {
+describe('abo:expt', function () {
   before(function (done) {
-    helpers.run(path.join(__dirname, '../generators/app'))
+    helpers.run(path.join(__dirname, '../generators/expt'))
       .withOptions({ skipInstall: true })
-      .withPrompts({ someOption: true })
+      .withPrompts({ name: 'bar' })
       .on('end', done);
   });
 
   it('creates files', function () {
     assert.file([
-      'ung.json',
-      'package.json',
-      '.editorconfig',
-      '.jshintrc',
-      '.jscsrc',
-      '.gitignore',
-      'expts.js',
-      'expts.prod.js',
-      'index.bundle.js'
+      'bar/setup.js',
+      'bar/index.js',
+      'bar/fosofile.js',
+      'bar/ac.js'
     ]);
   });
 });
