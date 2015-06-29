@@ -39,8 +39,8 @@ module.exports = yeoman.generators.Base.extend({
         }
       );
       this.fs.copy(
-        this.templatePath('fosofile.js'),
-        this.destinationPath(exptFolder + '/fosofile.js')
+        this.templatePath('_bundle.js'),
+        this.destinationPath(exptFolder + '/_bundle.js')
       );
       this.fs.copy(
         this.templatePath('ac.js'),

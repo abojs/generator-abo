@@ -17,7 +17,7 @@ describe('abo:expt', function () {
     assert.file([
       'bar/setup.js',
       'bar/index.js',
-      'bar/fosofile.js',
+      'bar/_bundle.js',
       'bar/ac.js'
     ]);
   });
