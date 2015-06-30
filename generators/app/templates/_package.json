@@ -4,7 +4,7 @@
   "dependencies": {
     "abo": "*",
     "abo-demo": "*",
-    "fosify-url": "*",
+    "foso-url": "*",
     "write-script": "*"
   }
 }

@@ -14,7 +14,7 @@
 	  "serverHost": "localhost:9595",
 	  "cmds": [
         ["rm", "-rf", "_build"],
-		["foso", "build", "-m", "--host", "localhost:9595/prod/dtm", "--env", "prod"]
+		["foso", "build", "-m", "--host", "localhost:9595/prod/abo", "--env", "prod"]
 	  ]
 	}
   }
