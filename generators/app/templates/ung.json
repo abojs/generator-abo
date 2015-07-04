@@ -1,21 +1,21 @@
 {
   "name": "<%= name %>",
-  "src": "./_build",
+  "src": "./dist",
   "serverHost": "localhost:9595",
   "envs": {
-	"dev": {
-	  "serverHost": "localhost:9595",
-	  "cmds": [
-        ["rm", "-rf", "_build"],
-		["foso", "build", "-m", "--host", "localhost:9595", "--env", "dev"]
-	  ]
-	},
-	"prod": {
-	  "serverHost": "localhost:9595",
-	  "cmds": [
-        ["rm", "-rf", "_build"],
-		["foso", "build", "-m", "--host", "localhost:9595/prod/abo", "--env", "prod"]
-	  ]
-	}
+    "dev": {
+      "serverHost": "localhost:9595",
+      "cmds": [
+        ["rm", "-rf", "dist"],
+        ["foso", "build", "-m", "--host", "localhost:9595", "--env", "dev"]
+      ]
+    },
+    "prod": {
+      "serverHost": "localhost:9595",
+      "cmds": [
+        ["rm", "-rf", "dist"],
+        ["foso", "build", "-m", "--host", "localhost:9595/prod/abo", "--env", "prod"]
+      ]
+    }
   }
 }
