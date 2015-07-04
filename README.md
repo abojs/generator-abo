@@ -4,7 +4,7 @@
 
 ## Usage
 
-For step-by-step instructions on using [abo](https://github.com/zkochan/abo) and this generator see [this](http://www.kochan.io/ab/vanilla-ab-testing-with-abo.html) tutorial.
+For step-by-step instructions on using [abo](https://github.com/abojs/abo) and this generator see [this](http://www.kochan.io/ab/vanilla-ab-testing-with-abo.html) tutorial.
 
 Install `yo`, `ung`, `foso` and `fosify-js`:
 
