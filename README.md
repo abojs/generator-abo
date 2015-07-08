@@ -1,4 +1,4 @@
-# generator-abo [![Build Status](https://secure.travis-ci.org/zkochan/generator-abo.png?branch=master)](https://travis-ci.org/zkochan/generator-abo)
+# generator-abo [![Build Status](https://secure.travis-ci.org/abojs/generator-abo.png?branch=master)](https://travis-ci.org/abojs/generator-abo)
 
 > [Yeoman](http://yeoman.io) generator for front-end A/B experiments.
 
