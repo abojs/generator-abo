@@ -6,15 +6,15 @@
     "dev": {
       "serverHost": "localhost:9595",
       "cmds": [
-        ["rm", "-rf", "dist"],
-        ["foso", "build", "-m", "--host", "localhost:9595", "--env", "dev"]
+        "rm -rf dist",
+        "foso build js less -m --host localhost:9595 --env dev"
       ]
     },
     "prod": {
       "serverHost": "localhost:9595",
       "cmds": [
-        ["rm", "-rf", "dist"],
-        ["foso", "build", "-m", "--host", "localhost:9595/prod/abo", "--env", "prod"]
+        "rm -rf dist",
+        "foso build js less -m --host localhost:9595/prod/abo --env prod"
       ]
     }
   }
